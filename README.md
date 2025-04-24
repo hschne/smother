@@ -4,39 +4,68 @@
 
 ![Logo](./icon.webp)
 
-A revolutionary tool to magically increase your test coverage. Don't just cover your code - smother it ☁️
+Smother is a _revolutionary_ tool to ✨ _magically_ ✨ increase your test coverage! Don't just cover your code - smother it! ☁️
 
 </div>
 
-## Test Coverage
+## Why Smother?
 
-Your boss wants to improve your test coverage.
+You've been fixing too many bugs lately, so you want to improve your test coverage.
 
-## Usage
+Great Idea. But who has time time write more tests? You certainly don't.
 
-Inst
+Enter **Smother**.
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Smother ✨ _magically_ ✨ improves your test coverage within seconds!
 
-Install the gem and add to the application's Gemfile by executing:
+| Without Smother 👎 | With Smother 🤩 |
+| ------------------ | --------------- |
+| 0%                 | 90%             |
 
-```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
+\_\* improved coverage may or may not vary with your code base and dramatically improved coverage
 
 ## Usage
 
-TODO: Write usage instructions here
+Install Smother and add a _single_ new test calling it.
+
+```bash
+bundle add smother
+```
+
+```ruby
+test 'smother everything' do
+  Smother.my_code
+end
+```
+
+Now simply run your tests and enjoy your improved coverage! 🤩
+
+## How It Works
+
+It's really simple.
+
+## FAQ
+
+### Wait, so this doesn't actually _test_ anything?!
+
+Smother improves your test coverage. Your boss won't care how, why do you? _Brrr_, Number go up! 📈
+
+### Why not fake the coverage results altogether?
+
+That would be cheating.
+
+### Is this a joke?
+
+Improving your test coverage is no joke!
+
+### No, really.
+
+Okay. I thought this would be a fun way to play around with introspection and dynamic programming in Ruby. So yes, kind of a joke. Don't use this in production.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that
+will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
