@@ -1,0 +1,20 @@
+require:
+  - standard
+plugins:
+  - rubocop-minitest
+  - rubocop-performance
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - node_modules/**/*
+    - public/**/*
+    - vendor/**/*
+
+Minitest:
+  Enabled: true
+Performance:
+  Enabled: true
