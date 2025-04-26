@@ -12,3 +12,6 @@ gem "minitest", "~> 5.16"
 
 gem "rubocop", "~> 1.21"
 gem "standardrb", "~> 1.0"
+
+gem "rubocop-minitest", "~> 0.38.0"
+gem "rubocop-performance", "~> 1.25"

@@ -27,4 +27,3 @@ module Smother
     end
   end
 end
-
