@@ -6,11 +6,15 @@
 
 Smother is a _revolutionary_ tool to ✨ _magically_ ✨ increase your test coverage! Don't just cover your code - smother it! ☁️
 
+| Without Smother 👎 | With Smother 👍 |
+| ------------------ | --------------- |
+| ![Screen Shot 2025-04-26 at 20 59 15](https://github.com/user-attachments/assets/33881bcc-1762-4878-9451-7b836e45e60c) | ![Screen Shot 2025-04-26 at 21 08 15](https://github.com/user-attachments/assets/c34aa1bb-296e-4eb1-9012-adc214a7872b)|
+
 </div>
 
 ## Why Smother?
 
-So you want to improve your test coverage.
+So you have some Ruby 💎 code and want to improve your test coverage.
 
 Great Idea. But who has time time write more tests? You certainly don't.
 
@@ -18,15 +22,10 @@ Enter **Smother**.
 
 Smother ✨ _magically_ ✨ improves your test coverage within seconds!
 
-| Without Smother 👎 | With Smother 🤩 |
-| ------------------ | --------------- |
-| 0%                 | 90%             |
-
-\* _you may experience vastly different results_
 
 ## Usage
 
-Install Smother and add a _single_ new test calling it.
+Install Smother and call it in your test suite. A single test will do.
 
 ```bash
 bundle add smother
@@ -38,41 +37,47 @@ test 'smother everything' do
 end
 ```
 
-That's it. Now simply run your tests and enjoy your improved coverage! 🤩
+That's it. Now run your tests and enjoy your improved coverage! 🤩
 
 ## How It Works
 
 It's really simple.
 
-Smother identifies all public methods in your code base and calls then with appropriate arguments. Any errors will be ignored so your code can continue execution.
+Smother identifies and calls all public methods in your code base with appropriate arguments. Any errors are ignored, so your code can continue execution.
 
 This dramatically increases code coverage.
 
 ## FAQ
 
-### Wait, so this doesn't actually _test_ anything?!
+#### Wait, where are the assertions? This doesn't actually _test_ anything?!
 
-Smother improves your code coverage. Your boss won't care how, why do you? _Brrr_, Number go up! 📈
+Who cares? Smother improves your code coverage. _Brrr_, Number go up! 📈
 
-### Why not fake the coverage results altogether?
+#### Why not use AI to generate tests?
+
+Why waste your precious credits if Smother can magically improve your code coverage in seconds?
+
+#### Why not fake the coverage results altogether?
 
 That would be cheating.
 
-### Smothering my code feels... violent?
+#### Smothering my code feels... violent?
 
 Smother is efficient, but efficiency comes at a price.
 
-### Is this a joke?
+#### Is this a joke?
 
-Improving code coverage is not a joke.
+Improving code coverage is no a joke.
 
-### No, really.
+#### No, really.
 
-I thought this would be a fun way to play around with introspection and dynamic programming in Ruby. I don't actually recommend anyone actually use this.
+Okay, I thought this would be a fun way to play around with introspection and dynamic programming in Ruby. 
+
+I don't actually recommend anyone actually use this in any setting anywhere. 
 
 ## Contributing
 
-Are you sure you actually want to contribute to this monstrosity?
+Are you sure you want to contribute to this monstrosity?
 
 Well, don't let me stop you. Bug reports and pull requests are welcome on GitHub at https://github.com/hschne/smother. Contributors are expected to adhere to the [code of conduct](https://github.com/hschne/smother/blob/main/CODE_OF_CONDUCT.md).
 
