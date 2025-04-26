@@ -1,15 +1,17 @@
-module Smother
-  class Mock
-    def initialize(name = "anonymous")
-      @name = name
-    end
+# frozen_string_literal: true
 
-    def method_missing(m, *_args)
-      Mock.new(m.to_s)
+module Smother
+  module Proxy
+    def method_missing(method, *_args)
+      Smother::Mock.new(method.to_s)
     end
 
     def respond_to_missing?(*_args)
       true
+    end
+
+    def to_s
+      to_str
     end
 
     def to_str
@@ -25,3 +27,4 @@ module Smother
     end
   end
 end
+
